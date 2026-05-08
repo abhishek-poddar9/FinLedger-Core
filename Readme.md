@@ -26,7 +26,7 @@ FinLedger Core is a backend-focused banking transaction system built with Node.j
 ### Transaction Processing
 
 - Authenticated fund transfer between accounts
-- Idempotency key support to prevent duplicate transaction processing
+- Client-provided idempotency key support to prevent duplicate transaction processing
 - Transaction status tracking for pending and completed transfers
 - Structured debit and credit ledger flow using MongoDB and Mongoose
 
